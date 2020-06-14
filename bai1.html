@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 1</title>
+</head>
+<body>
+<script>
+    //Bài 1: Hiển thị ra 20 số trong dãy fibonacci đầu tiên.
+    let number = parseInt(prompt('nhap so chu so fibo trong day ban muon hien thi'));
+    let count = 0;
+    let a =0, b = 1;
+
+    while (count <= number){
+        document.write(b + ' ');
+        let c = a + b;
+        a = b;
+        b = c;
+        count ++;
+    }
+
+</script>
+</body>
+</html>

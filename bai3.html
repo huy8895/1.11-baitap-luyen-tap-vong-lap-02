@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 3</title>
+</head>
+<body>
+<script>
+    //Bài 3: In tam giác vuông.
+    // Các góc vuông nằm ở các vị trí khác nhau
+    let chieudai = +parseInt(prompt('nhap chieu dai 1 canh tam giac vuong'));
+    let type1 = prompt('nhap ky tu 1');
+    let type2 = prompt('nhap ky tu 2');
+    let i1 = '';
+    let  i2 = '';
+    for (let i = 0;i < chieudai;i++){
+        i2 += type2;
+    }
+    let j;
+    for ( j = 0; j <= chieudai; j++){
+        document.write('' + i1 + i2 +'<br>');
+        i1 += type1;
+        i2 = '';
+        for (let i = 1;i < (chieudai - j) ;i++){
+            i2 += type2;}
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai4</title>
+</head>
+<body>
+<script>
+    //in hinh chu nhat
+    let width = parseInt(prompt('nhap chieu rong'));
+    let height = parseInt(prompt('nhap chieu dai'));
+    let h = '*';
+    let w = '*';
+    let space = '&nbsp';
+    for (let i = 1; i < width; i ++){
+        space += '&nbsp&nbsp' ;
+    }
+
+    for (let i = 0; i < width; i++){
+      h  += '*';
+    }
+
+    document.write(h + '<br>');
+    for (let i = 0; i < height; i++){
+        w ;
+        document.write(w + space +  w + '<br>')
+    }
+    document.write(h);
+</script>
+</body>
+</html>
